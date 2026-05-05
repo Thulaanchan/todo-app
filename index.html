@@ -33,9 +33,9 @@
   </div>
 
   <div class="filters">
-    <button class="active" onclick="setFilter('all', event)">All</button>
-    <button onclick="setFilter('pending', event)">Pending</button>
-    <button onclick="setFilter('completed', event)">Completed</button>
+    <button class="all" onclick="filterTasks('all')">All</button>
+    <button class="pending" onclick="filterTasks('pending')">Pending</button>
+    <button class="completed" onclick="filterTasks('completed')">Completed</button>
   </div>
 
   <div class="progress" id="progress">Progress: 0 / 0</div>

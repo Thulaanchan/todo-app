@@ -61,7 +61,19 @@ button {
 .filters button {
   flex: 1;
   margin: 2px;
-  background: linear-gradient(45deg, red, #f6ff00);
+  background: linear-gradient(90deg, red, #f6ff00);
+  color: black;
+}
+
+/* Pending Button */
+.filters .pending {
+  background: #ff0000;
+  color: #000000;
+}
+
+/* Completed Button */
+.filters .completed {
+  background: #f6ff00;
   color: black;
 }
 
